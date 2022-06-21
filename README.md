@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-demo: https://62b1e8096fa84c697d58432c--fluffy-tiramisu-c64e55.netlify.app/
+demo: https://master--fluffy-tiramisu-c64e55.netlify.app/
 
 Api Key: cfa7be7e6a98bcd9e6bab490d923e87c
 
