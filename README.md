@@ -1,6 +1,49 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Api Key: cfa7be7e6a98bcd9e6bab490d923e87c
+
+Kullandığım Tüm Kütüphane Ve Teknolojiler 
+
+- typescript
+- react 
+- redux
+- redux-saga
+- react-router-dom
+- formik
+- yup 
+- testing-library/react
+- node-sass
+- react-icon
+- axios
+
+# Docker ile başlamak için
+
+Bu projeyi Docker ile çalıştırmanın iki yolu vardır:
+
+1- docker deposundan resmi olarak indirebilirsiniz;
+
+docker pull ismailbecit/weather-api
+
+İndirdiğiniz imajı çalıştırmak için;
+
+docker run -d -p 3000:3000 ismailbecit/weather-api
+
+
+-d, konteynerin arka planda çalışmasını sağlamaktır.
+-p kullanacağınız portları belirlemektir.
+ve son olarak resmin adı.
+
+2- dockerfile dosyasını image'e dönüştürebilirsiniz.
+
+docker build -t weather-api .
+
+
+-t, kapsayıcıya veya etiketlere de ad verir.
+. dockerfile'ın nerede olduğunu göstermektir.
+
+oluşturduğunuz görüntüyü çalıştırmak için;
+
+docker run -d -p 3000:3000 ismailbecit/weather-api
 
 ## Available Scripts
 
