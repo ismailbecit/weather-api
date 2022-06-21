@@ -624,6 +624,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.flex {
+  display: flex;
+}
+
 .grid {
   display: grid;
 }
@@ -650,6 +654,10 @@ video {
 
 .w-72 {
   width: 18rem;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .justify-center {

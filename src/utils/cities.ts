@@ -265,7 +265,7 @@ export const cities = [
     },
     {
         "id": 34,
-        "name": "İstanbul",
+        "name": "Istanbul",
         "latitude": "41.0053",
         "longitude": "28.9770",
         "population": 14657434,
@@ -273,7 +273,7 @@ export const cities = [
     },
     {
         "id": 35,
-        "name": "İzmir",
+        "name": "Izmir",
         "latitude": "38.4189",
         "longitude": "27.1287",
         "population": 4168415,

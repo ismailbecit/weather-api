@@ -21,9 +21,9 @@ const WeatherComponent = () => {
             {weather ?
                 <>
                     <div className='weatherCondition'>
-                        <span className='condition' ><span>
-                            {weather?.main?.feels_like} C
-                        </span> | {weather?.weather[0].description} </span>
+                        <span className='condition' ><span className="flex flex-wrap">
+                            {weather?.main?.feels_like} °C
+                        </span> {weather?.weather[0].description.toUpperCase()} </span>
                         <img
                             className='mx-auto weatherLogo '
                             src={`${application.img}/img/wn/${weather?.weather?.[0]?.icon}@2x.png`} />
