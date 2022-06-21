@@ -16,7 +16,7 @@ const WeatherComponent = () => {
         navigate("/")
     }
     return (
-        <div className='weatherComponent' role="card">
+        <div className='weatherComponent w-72 sm:w-full' role="card">
 
             {weather ?
                 <>
