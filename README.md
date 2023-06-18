@@ -2,7 +2,7 @@
 
 demo: https://fluffy-tiramisu-c64e55.netlify.app/
 
-Api Key: cfa7be7e6a98bcd9e6bab490d923e87c
+Api Key: 04afa4c93ab094e7dcadbc755e041647
 
 Kullandığım Tüm Kütüphane Ve Teknolojiler 
 
